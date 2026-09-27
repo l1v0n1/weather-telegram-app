@@ -1,5 +1,7 @@
 # 🌤 Weather Telegram Mini App
 
+**Язык:** 🇷🇺 Русский · [🇬🇧 English](README.en.md)
+
 Погодный Telegram-бот и Mini App: текущая погода, 24 часа прогноза, 7 дней, поиск городов и геолокация. Русский и английский интерфейс, тема Telegram, сохранение города, обновление и обработка сетевых ошибок.
 
 [Открыть приложение](https://kamil-weather.hackernet340.chatgpt.site) · [Telegram-бот](https://t.me/pokeint_bot)
