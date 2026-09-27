@@ -1,0 +1,54 @@
+# Third-party notices
+
+Original application code is MIT-licensed. Dependencies retain their own licenses. The lockfile pins all dependencies; their distributions contain upstream license texts. This repository does not redistribute node_modules or dependency bundles.
+
+The Skeleton component and class-name helper derive from shadcn/ui, Copyright (c) 2023 shadcn, MIT. Full notice: [licenses/shadcn-MIT.txt](licenses/shadcn-MIT.txt).
+
+| Package | Version | License |
+|---|---|---|
+| `@base-ui/react` | 1.7.0 | MIT |
+| `@cloudflare/vite-plugin` | 1.37.1 | MIT |
+| `@cloudflare/workers-types` | 4.20260515.1 | MIT OR Apache-2.0 |
+| `@hookform/resolvers` | 5.7.1 | MIT |
+| `@shadcn/react` | 0.3.0 | MIT |
+| `@tailwindcss/postcss` | 4.2.1 | MIT |
+| `@types/node` | 22.19.19 | MIT |
+| `@types/react` | 19.2.14 | MIT |
+| `@types/react-dom` | 19.2.3 | MIT |
+| `@vitejs/plugin-react` | 6.0.2 | MIT |
+| `@vitejs/plugin-rsc` | 0.5.26 | MIT |
+| `class-variance-authority` | 0.7.1 | Apache-2.0 |
+| `clsx` | 2.1.1 | MIT |
+| `cmdk` | 1.1.1 | MIT |
+| `date-fns` | 4.4.0 | MIT |
+| `drizzle-kit` | 0.31.10 | MIT |
+| `drizzle-orm` | 0.45.2 | Apache-2.0 |
+| `embla-carousel-react` | 8.6.0 | MIT |
+| `eslint` | 9.39.4 | MIT |
+| `eslint-config-next` | 16.3.4 | MIT |
+| `input-otp` | 1.4.2 | MIT |
+| `lucide-react` | 1.31.0 | ISC |
+| `next` | 16.3.4 | MIT |
+| `next-themes` | 0.4.6 | MIT |
+| `radix-ui` | 1.6.7 | MIT |
+| `react` | 19.2.6 | MIT |
+| `react-day-picker` | 10.0.1 | MIT |
+| `react-dom` | 19.2.6 | MIT |
+| `react-hook-form` | 7.85.0 | MIT |
+| `react-resizable-panels` | 4.12.2 | MIT |
+| `react-server-dom-webpack` | 19.2.6 | MIT |
+| `recharts` | 3.8.0 | MIT |
+| `sonner` | 2.0.8 | MIT |
+| `tailwind-merge` | 3.6.0 | MIT |
+| `tailwindcss` | 4.2.1 | MIT |
+| `tw-animate-css` | 1.4.0 | MIT |
+| `typescript` | 5.9.3 | Apache-2.0 |
+| `vaul` | 1.1.2 | MIT |
+| `vinext` | 1.0.0-beta.5 | MIT |
+| `vite` | 8.0.13 | MIT |
+| `wrangler` | 4.92.0 | MIT OR Apache-2.0 |
+| `zod` | 3.25.76 | MIT |
+
+Weather data: [Open-Meteo](https://open-meteo.com/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Geocoding uses Open-Meteo and [GeoNames](https://www.geonames.org/). Attribution remains in the UI. The hosted API has separate [non-commercial terms](https://open-meteo.com/en/terms); the source-code license does not waive these.
+
+Telegram trademarks belong to Telegram. The official Web App SDK is loaded from telegram.org and is not redistributed. Emoji rendering is provided by the operating system.

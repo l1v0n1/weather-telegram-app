@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.next/
+.wrangler/
+.openai/
+.sites-runtime/
+.env*
+!.env.example
+.dev.vars*
+*.tsbuildinfo
+*.log
+.DS_Store
+
+node_modules

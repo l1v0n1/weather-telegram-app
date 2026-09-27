@@ -1,0 +1,4 @@
+import { env } from 'cloudflare:workers';
+export const secrets=()=>env as unknown as {TELEGRAM_BOT_TOKEN?:string;WEBHOOK_SECRET?:string;SETUP_SECRET?:string;WEBAPP_URL?:string};
+export async function telegram(method:string,body:unknown={}){const token=secrets().TELEGRAM_BOT_TOKEN;if(!token)throw new Error('Bot not configured');const r=await fetch(`https://api.telegram.org/bot${token}/${method}`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body),signal:AbortSignal.timeout(12000)});const d=await r.json() as {ok:boolean;result:any};if(!d.ok)throw new Error('Telegram request failed');return d.result;}
+export function welcome(en=false){return en?'Hi! 👋\nI’ll show you current weather and forecasts for any city.\n\nTap below to open the weather.':'Привет! 👋\nЯ покажу актуальную погоду и прогноз для любого города.\n\nНажми кнопку ниже, чтобы открыть погоду.'}
